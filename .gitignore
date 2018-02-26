@@ -1,5 +1,25 @@
+# dependencies
 node_modules
+
+# test reports
+coverage
+coverage/*
+
+# private files
 .DS_Store
+.env
+
+# debug files
 npm-debug.*
+
+# build files
 dist
 dist/*
+
+# output files
+samples
+samples/*
+!tests/samples
+!tests/samples/*
+output.log
+result.json

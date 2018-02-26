@@ -5,6 +5,7 @@
     "plugin:import/warnings"
   ],
   "plugins": [],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -12,13 +13,13 @@
   },
   "env": {
     "es6": true,
-    "browser": true,
     "node": true,
     "mocha": true
   },
   "rules": {
+    "strict": 0,
     "quotes": 0,
-    "no-console": 1,
+    "no-console": 0,
     "no-debugger": 1,
     "no-var": 1,
     "semi": [1, "always"],
@@ -27,6 +28,7 @@
     "no-unused-vars": 0,
     "no-underscore-dangle": 0,
     "no-alert": 0,
-    "no-lone-blocks": 0
+    "no-lone-blocks": 0,
+    "import/no-unresolved": 0
   }
 }
